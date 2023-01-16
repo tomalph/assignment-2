@@ -1,5 +1,275 @@
+/* google font link added here */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Roboto:wght@300;400&family=Work+Sans:wght@700&display=swap');
+
+/* utlilities added here */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* container and navbar styles started */
+.container{
+    background: rgba(255, 144, 14, 0.1);
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    color: #424242;
+    width: 100%;
+}
+.menus{
+    display: flex;
+    list-style: none;
+}
+.menu{
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.web-title{
+    font-size: 45px;
+    font-weight: 700px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+/* banner styles added here */
+.banner-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding: 100px;
+    margin: 0 auto;
+}
+.banner-title{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 64px;
+}
+.banner-description{
+    text-align: center;
+    margin: auto auto;
+
+}
+.banner-btn{
+    margin-top: 30px;
+    border: 0;
+    background-color: #FF900E;
+    color: white;
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 20px;
+}
+.banner-info .banner-image{
+    width: 90%;
+    margin-top: 50px;
+}
+/* banner styles ended */
+
+/* quick list features styles started */
+
+.feature-container{
+    margin-top: 200px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.features{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.feature-photos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-left: 50px;
+
+}
+.feature-lists h4{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.feature-lists p{
+    color: #727272;
+    font-size: 16px;
+}
+/* quick list features styles ended */
+
+/* feature-love-enjoy section started */
+.features-love{
+
+    width: 100%
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    /* align-items: center; */    
+}
+.feature-love-enjoy{
+    position: relative;
+    margin-bottom: 100px;
+}
+.box-img-styling{
+    display: flex;
+    justify-content: center;
+}
+.feature-items{
+    width: 50%;
+    height: 80%;
+   
+}
+.features-love-title{
+    font-weight: 700;
+    /* margin-left: 10px; */
+    font-size: 45px;
+    border-left: 5px solid #FF900E;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+.features-description{
+    margin-left: 60px;
+}
+
+
+
+.features-love-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    width: 50%;
+    height: 80%;
+}
+.box-items{
+    padding: 20px;
+    margin: 50px;
+    box-shadow: 1px 5px 15px 3px gray;
+}
+.features-btn{
+    padding: 40px;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    left: 580px;
+    bottom: 80px;
+    color: white;
+    background-color: #FF900E;
+    font-size: 40px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    
+}
+.box-img{
+    height: 90%;
+    width: 70%;
+    object-fit: cover;
+    object-position: center;
+}
+/* features-enjoy-love section styles ended */
+
+/* some facts section styles started here */
+.icons-info{
+    margin-left: 70px;
+}
+.icon-info-title{
+    font-weight: 700;
+    font-size: 45px;
+
+}
+.icon-info-description{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 100px;
+}
+.some-facts-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 80px;
+
+}
+.icons .icon-des{
+    color: #727272;
+}
+
+.icons:hover{
+    background-color: #424242;
+    color: white;
+}
+.icons{
+    border: 1px solid orange;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    width: 80%;
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    padding: 30px;
+    font-weight: 600;
+    font-size: 45px;
+    
+}
+.sponsor-info{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.sponsor-info .sponsor-title{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.sponsors{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+}
+
+/* some facts section styles ended here */
+
+/* 
+
+footer section styles started here 
+
+*/
+.footer-section{
+    text-align: center;
+    width: 80%;
+    background: rgba(255, 144, 14, 0.1);
+    margin: 0 auto;
+    height: 100px;
+    margin-bottom: 50px;
+    padding: 100px 0;
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* footer section styles ended here */
+
+
+
+/* Media Queries added here */

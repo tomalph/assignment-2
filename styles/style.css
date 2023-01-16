@@ -251,18 +251,54 @@ body{
 /* some facts section styles ended here */
 
 /* 
+/* form section styles started here */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+.form-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-bottom: 20px;
+  }
+/* form section styles ended here */
 
-footer section styles started here 
+
+/* footer section styles started here  */
 
 */
 .footer-section{
-    text-align: center;
-    width: 80%;
-    background: rgba(255, 144, 14, 0.1);
-    margin: 0 auto;
-    height: 100px;
-    margin-bottom: 50px;
+    align-items: center;
+}
+
+footer{
     padding: 100px 0;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 80%;
+    height: 200px;
+    background:rgba(255, 144, 14, 0.1);
     color: #424242;
     font-weight: 400;
     font-size: 20px;
